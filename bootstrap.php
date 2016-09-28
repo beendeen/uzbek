@@ -1,7 +1,5 @@
 <?php
-// Copyright © 2015 Toby Zerner and Flarum
-// Copyright © 2015 Johann Rodríguez and Flarum en Español
-// ---
+// Copyright © 2016 Shaxzod
 // All rights reserved
 
 use Flarum\Event\ConfigureClientView;
@@ -13,7 +11,7 @@ return function (Dispatcher $events) {
     $events->subscribe('Spanish');
 };
 
-class Spanish {
+class Uzbek {
     protected $settings;
 
     public function __construct(SettingsRepositoryInterface $settings) {
@@ -30,7 +28,7 @@ class Spanish {
             $event->addAssets([
                 __DIR__ . '/js/admin/dist/extension.js'
             ]);
-            $event->addBootstrapper('flarumes/spanish/main');
+            $event->addBootstrapper('flarumes/uzbek/main');
         }
     }
 
