@@ -1,7 +1,7 @@
 {
-    "name": "flarumes/flarum-ext-spanish",
+    "name": "shax/flarum-ext-uzbek2",
     "type": "flarum-extension",
-    "description": "Spanish language pack.",
+    "description": "Uzbek language pack.",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
@@ -22,7 +22,7 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "Spanish",
+            "title": "Uzbek",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#AD1519",
@@ -31,8 +31,8 @@
             }
         },
         "flarum-locale": {
-            "code": "es",
-            "title": "Spanish"
+            "code": "uz",
+            "title": "Uzbek"
         }
     }
 }
